@@ -3,9 +3,9 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh '''
-pwd
-whoami'''
+        sh '''pwd
+ 
+ls -la'''
       }
     }
 
